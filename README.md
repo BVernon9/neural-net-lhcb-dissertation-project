@@ -16,7 +16,7 @@ In this project, the full scan is replaced by a **16-class classification proble
 - Inputs: noise mean and noise width at the two extreme threshold settings (0x0 and 0xF).
 - Output: predicted trim value (0–15) for each pixel.
 
-A small feed-forward neural network (Keras/TensorFlow) is trained on construction data and evaluated on both construction and later operational data from the VELO. A boosted decision tree (XGBoost) and a regression-style neural network are used as baselines and comparisons. :contentReference[oaicite:0]{index=0}  
+A small feed-forward neural network (Keras/TensorFlow) is trained on construction data and evaluated on both construction and later operational data from the VELO. A boosted decision tree (XGBoost) and a regression-style neural network are used as baselines and comparisons. 
 
 On construction data the final model reaches **≈98.6% accuracy within ±1 trim unit**, while inference on a 256×256 pixel tile takes under 2 seconds on CPU.
 
