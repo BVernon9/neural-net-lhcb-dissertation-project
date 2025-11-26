@@ -46,12 +46,12 @@ Other files in the repo are earlier tests or helper notebooks used on the way to
 
 The original LHCb VELO datasets are **not** included in this repository:
 
-- All data were accessed via supervisor access to CERN EOS/LHCb storage.
-- The data are not publicly shareable, and a lot of the work relies on large internal `.tgz` archives and processed arrays.
+- All data was accessed via supervisor access to CERN EOS/LHCb storage.
+- The data is not publicly shareable, and a lot of the work relies on large internal `.tgz` archives and processed arrays.
 
 Because of that:
 
-- The notebooks and scripts are here mainly as **read-only reference**.
+- The notebooks and scripts are here mainly as a **read-only reference**.
 - They will not run “out of the box” without the internal data and paths.
 - The full methodology, preprocessing steps and evaluation are documented in `Project_Report.pdf`.
 
