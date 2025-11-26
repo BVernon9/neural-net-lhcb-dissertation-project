@@ -97,4 +97,4 @@ The report discusses how periodic retraining on updated full scans could turn th
 
 ## Acknowledgements
 
-This work was completed as part of my final-year P
+This work was completed as part of my final-year Physics dissertation at the University of Liverpool under the supervision of Dr David Hutchcroft, using VELO construction and operational data from the LHCb experiment at CERN.
